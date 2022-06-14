@@ -1,0 +1,35 @@
+name: Hexs_Bingo_Plugin
+main: BingoPlugin
+version: 1.1
+description: A bingo plugin
+api-version: 1.16
+author: hexadezimal6E_3B
+website: www.hexsz.eu
+load: STARTUP
+commands:
+  start:
+    description: chooses items and starts timer
+    usage: /start
+    aliases: s
+  pause:
+    description: pauses timer
+    usage: /pause
+    aliases: p
+  play:
+    description: continues timer after pause
+    usage: /play
+  modify:
+    description: modifies the items
+    usage: /modify
+    aliases: [m, mod]
+  bingo:
+    description: shows items
+    usage: /bingo
+    aliases: [b, items, i]
+  set-time:
+    description: sets the time
+    usage: /set-time <time>
+  reset:
+     description: resets the world
+     usage: /reset
+     aliases: r
